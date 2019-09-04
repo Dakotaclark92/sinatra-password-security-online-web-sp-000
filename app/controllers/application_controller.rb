@@ -32,7 +32,7 @@ class ApplicationController < Sinatra::Base
 
   get '/success' do
     @user = User.find(session[:user_id])
-    erb :account
+    erb :success
   end
 
 
