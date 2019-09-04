@@ -18,12 +18,3 @@ ActiveRecord::Schema.define(version: 20180314210852) do
   end
 
 end
-
-ActiveRecord::Schema.define(version: 20190828215303) do
-
-  create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.string "password_digest"
-  end
-
-end
